@@ -1,24 +1,4 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>config.js — النسخة الكاملة</title>
-<style>
-body{font-family:Arial,sans-serif;background:#f4f6f8;margin:0;padding:20px;color:#111}
-.wrap{max-width:1200px;margin:auto}
-h1{font-size:22px;margin:0 0 8px}
-p{color:#555}
-textarea{width:100%;height:78vh;box-sizing:border-box;padding:16px;border:1px solid #ccc;border-radius:12px;background:#fff;direction:ltr;text-align:left;font-family:Consolas,Monaco,monospace;font-size:13px;line-height:1.5;resize:vertical}
-button{margin:10px 0;padding:10px 16px;border:0;border-radius:8px;background:#111;color:#fff;cursor:pointer}
-</style>
-</head>
-<body>
-<div class="wrap">
-<h1>config.js — النسخة الكاملة</h1>
-<p>هذا الملف يحتوي على كامل كود config.js دون حذف أو تقطيع. اضغط داخل المربع ثم Ctrl+A ثم Ctrl+C لنسخه.</p>
-<button onclick="copyCode()">نسخ config.js كاملًا</button>
-<textarea id="code" spellcheck="false">
+
 // =============================================================================
 // ⚙️ ملف الإعدادات الرئيسي للمتجر
 // =============================================================================
@@ -1578,10 +1558,3 @@ function updateConfig(newConfig) {
     }
     return STORE_CONFIG;
 }
-</textarea>
-<script>
-function copyCode(){const t=document.getElementById('code');t.focus();t.select();navigator.clipboard?.writeText(t.value).then(()=>alert('تم نسخ config.js كاملًا')).catch(()=>document.execCommand('copy'));}
-</script>
-</div>
-</body>
-</html>
