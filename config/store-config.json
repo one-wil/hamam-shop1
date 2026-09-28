@@ -1,244 +1,39 @@
 {
   "PRODUCTS": {
-    "1789476986031": {
-      "name": "لباس أطفال تركي",
-      "price": 3000,
-      "description": "",
-      "category": "",
+    "1790627034819": {
+      "name": "Parfum sospero URBA-PURA",
+      "price": 5000,
+      "description": " عطر لا يقاوم ",
+      "category": "perfume",
       "stock": 0,
       "featured": false,
-      "availableColors": [
-        "أحمر",
-        "أزرق"
-      ],
-      "availableSizes": [
-        "S",
-        "M"
-      ],
+      "availableColors": [],
+      "availableSizes": [],
       "ageRanges": [],
-      "colorImages": {
-        "أحمر": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/dawn-dz/main/images/product-1789476986031-أحمر-1789477096937-modal3.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "S"
-            },
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "M"
-            }
-          ]
-        },
-        "أزرق": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/dawn-dz/main/images/product-1789476986031-أزرق-1789477125433-modal4.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": " ",
-              "ageTo": " ",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            }
-          ]
-        }
-      },
+      "colorImages": {},
       "sizeGuide": {
         "enabled": false,
         "guide": {}
       },
-      "createdAt": "2026-09-15T12:56:26.031Z",
-      "image": "https://raw.githubusercontent.com/one-wil/dawn-dz/main/images/product-1789476986031-1789477052559-modal3.jpg",
-      "updatedAt": "2026-09-27T18:34:57.164Z"
-    },
-    "1789581423689": {
-      "name": " Ensemble polo",
-      "price": 4000,
-      "description": " منتج عال الجودة ، بتفاصيل جدابة",
-      "category": "",
-      "stock": 0,
-      "featured": false,
-      "availableColors": [
-        "Black-olive Geen",
-        "Beige - Black",
-        "Gray-black"
+      "createdAt": "2026-09-28T20:23:54.819Z",
+      "image": "https://raw.githubusercontent.com/one-wil/hamam-shop1/main/images/product-1790627034819-1790627237974-Screenshot-20260928-212603-Chrome.jpg",
+      "productType": "perfume",
+      "volumes": [
+        "50ML"
       ],
-      "availableSizes": [
-        "S",
-        "M",
-        "L"
+      "shades": [],
+      "concentrations": [
+        "×5"
       ],
-      "ageRanges": [],
-      "colorImages": {
-        "Black-olive Geen": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-Black-olive%20Geen-1789581763856-Messenger-creation-BFECA40B-57E0-4596-BD25-4F9D45BA3562.jpeg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "L"
-            }
-          ]
-        },
-        "Beige - Black": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-Beige%20-%20Black-1789581940027-Messenger-creation-810CA979-D104-4003-AC53-8D1BA722871C.jpeg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "L"
-            }
-          ]
-        },
-        "Gray-black": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-Gray-black-1789581994305-Messenger-creation-25516B0A-A522-42F1-9AB6-57299C553605.jpeg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "L"
-            }
-          ]
-        }
-      },
-      "sizeGuide": {
-        "enabled": true,
-        "guide": {
-          "S": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          },
-          "M": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          },
-          "L": {
-            "heightFrom": 0,
-            "heightTo": 0,
-            "weightFrom": 0,
-            "weightTo": 0
-          }
-        }
-      },
-      "createdAt": "2026-09-16T17:57:03.689Z",
-      "image": "https://raw.githubusercontent.com/one-wil/vol-shop/main/images/product-1789581423689-1789581668031-Messenger-creation-810CA979-D104-4003-AC53-8D1BA722871C.jpeg",
-      "updatedAt": "2026-09-16T18:08:38.128Z"
-    },
-    "1790364985301": {
-      "name": "معطف شتوي ",
-      "price": 3500,
-      "description": "",
-      "category": "",
-      "stock": 0,
-      "featured": false,
-      "availableColors": [
-        "أبيض",
-        "أزرق"
+      "genres": [
+        "Homme"
       ],
-      "availableSizes": [
-        "S",
-        "M"
-      ],
-      "ageRanges": [],
-      "colorImages": {
-        "أزرق": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/kilo-shop/main/images/product-1790364985301-أزرق-1790365290811-modal10.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            }
-          ]
-        },
-        "أبيض": {
-          "images": [
-            "https://raw.githubusercontent.com/one-wil/kilo-shop/main/images/product-1790364985301-أبيض-1790365327397-modal7.jpg"
-          ],
-          "ageRanges": [
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "S"
-            },
-            {
-              "ageFrom": "",
-              "ageTo": "",
-              "size": "M"
-            }
-          ]
-        }
-      },
-      "sizeGuide": {
-        "enabled": false,
-        "guide": {}
-      },
-      "createdAt": "2026-09-25T19:36:25.301Z",
-      "image": "https://raw.githubusercontent.com/one-wil/kilo-shop/main/images/product-1790364985301-1790365183346-modal10.jpg",
-      "updatedAt": "2026-09-25T19:41:52.051Z"
+      "extraInfo": "Original",
+      "variants": [],
+      "updatedAt": "2026-09-28T20:28:45.181Z"
     }
   },
-  "PRODUCT_ORDER": {
-    "1789476986031": 2,
-    "1789581423689": 1,
-    "1790364985301": 3
-  },
+  "PRODUCT_ORDER": {},
   "DELIVERY_PRICES": {
     "01 - أدرار": {
       "home": 1100,
@@ -493,8 +288,7 @@
     "freeDeliveryProducts": [
       1765137505304,
       1765145035052,
-      1765145814607,
-      1789476986031
+      1765145814607
     ]
   },
   "DISCOUNTS": {
@@ -507,9 +301,7 @@
     "promotionalDiscountPercent": 10,
     "promotionalDiscountedPrice": null,
     "promoDiscountScope": "all",
-    "promoDiscountProducts": [
-      1789581423689
-    ]
+    "promoDiscountProducts": []
   },
   "STORE_INFO": {
     "name": "Kilo-shop",
