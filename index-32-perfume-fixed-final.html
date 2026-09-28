@@ -12205,3 +12205,50 @@ let tries=0; const timer=setInterval(()=>{tries++;if(install()||tries>=40)clearI
   };
 })();
 </script>
+
+<style id="perfume-final-show-order-area">
+/* العطر لا يحتاج الخطوة 2: أظهر السعر والكمية وزر أطلب الآن مباشرة */
+#productModal.perfume-no-variant .post-size-element,
+#productModal.perfume-no-variant .post-size-element.after-size-reveal,
+#productModal.perfume-no-variant .post-size-element.size-locked{
+  display:block !important;
+  visibility:visible !important;
+  opacity:1 !important;
+}
+#productModal.perfume-no-variant .modern-actions.post-size-element{
+  display:block !important;
+}
+#productModal.perfume-no-variant #addToCartFromModal{
+  display:inline-flex !important;
+  visibility:visible !important;
+  opacity:1 !important;
+}
+</style>
+<script id="perfume-final-show-order-area-script">
+(function(){
+  function syncPerfumeOrderArea(){
+    const modal=document.getElementById('productModal');
+    if(!modal || !modal.classList.contains('perfume-no-variant')) return;
+    modal.querySelectorAll('.post-size-element').forEach(function(el){
+      el.classList.remove('after-size-reveal','size-locked');
+      el.setAttribute('data-size-locked','false');
+      el.style.setProperty('display','block','important');
+      el.style.setProperty('visibility','visible','important');
+      el.style.setProperty('opacity','1','important');
+    });
+    const btn=document.getElementById('addToCartFromModal');
+    if(btn){
+      btn.style.setProperty('display','inline-flex','important');
+      btn.style.setProperty('visibility','visible','important');
+      btn.style.setProperty('opacity','1','important');
+    }
+    if(typeof updateModernSummary==='function') updateModernSummary();
+  }
+  document.addEventListener('click',function(e){
+    if(e.target.closest && e.target.closest('[onclick*="showProductDetails"]')) setTimeout(syncPerfumeOrderArea,50);
+  },true);
+  const modal=document.getElementById('productModal');
+  if(modal) new MutationObserver(function(){syncPerfumeOrderArea();}).observe(modal,{attributes:true,attributeFilter:['class'],childList:true,subtree:true});
+  window.addEventListener('load',function(){setTimeout(syncPerfumeOrderArea,100);});
+})();
+</script>
